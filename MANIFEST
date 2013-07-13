@@ -14,8 +14,8 @@ t/nephia-test_app/etc/conf/production.pl
 t/nephia-test_app/etc/conf/staging.pl
 t/nephia-test_app/lib/Nephia/TestApp.pm
 t/nephia-test_app/root/static/style.css
+t/nephia-test_app/view/confirm.html
+t/nephia-test_app/view/index.html
 t/test.psgi
-t/view/confirm.html
-t/view/index.html
 META.yml
 MANIFEST

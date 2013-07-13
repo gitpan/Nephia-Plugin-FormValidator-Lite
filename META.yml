@@ -28,14 +28,13 @@ no_index:
 provides:
   Nephia::Plugin::FormValidator::Lite:
     file: lib/Nephia/Plugin/FormValidator/Lite.pm
-    version: 0.01
+    version: 0.02
 requires:
   FormValidator::Lite: 0
-  Nephia: 0.23
-  Nephia::DSLModifier: 0
+  Nephia: 0.31
   perl: 5.008005
 resources:
   bugtracker: https://github.com/mackee/Nephia-Plugin-FormValidator-Lite/issues
   homepage: https://github.com/mackee/Nephia-Plugin-FormValidator-Lite
   repository: git://github.com/mackee/Nephia-Plugin-FormValidator-Lite
-version: 0.01
+version: 0.02
