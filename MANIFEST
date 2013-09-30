@@ -5,6 +5,7 @@ META.json
 README.md
 cpanfile
 lib/Nephia/Plugin/FormValidator/Lite.pm
+minil.toml
 t/00_compile.t
 t/01_validate.t
 t/nephia-test_app/cpanfile

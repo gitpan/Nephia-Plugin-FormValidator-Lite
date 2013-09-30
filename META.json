@@ -4,8 +4,10 @@
       "MACOPY <macopy123[attttt]gmai.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.3",
-   "license" : "perl_5",
+   "generated_by" : "Minilla/v0.7.0",
+   "license" : [
+      "perl_5"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
@@ -48,6 +50,9 @@
       "test" : {
          "requires" : {
             "Config::Micro" : "0",
+            "Nephia::Plugin::Dispatch" : "0",
+            "Nephia::Plugin::JSON" : "0",
+            "Nephia::Plugin::View::MicroTemplate" : "0",
             "Test::More" : "0.98"
          }
       }
@@ -55,7 +60,7 @@
    "provides" : {
       "Nephia::Plugin::FormValidator::Lite" : {
          "file" : "lib/Nephia/Plugin/FormValidator/Lite.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -69,5 +74,5 @@
          "web" : "https://github.com/mackee/Nephia-Plugin-FormValidator-Lite"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
